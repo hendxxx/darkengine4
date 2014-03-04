@@ -1,0 +1,34 @@
+*{	margin: 0;	padding: 0;}
+body{	background: #ccc url(images/top_bg.gif) repeat-x;	font: normal 11px Trebuchet MS, Trebuchet, Arial, sans-serif;	color: #ccc;	text-align: left;}
+a{	color:#ffffff;}
+a :hover{	color : #ffffff;}
+form {	margin: 0;	padding: 0;}#confirm{	margin: 0;	padding: 0;	border: 1px solid #ccc;	width:400px;}#confirm #title {	color:red;	font-size:12px;	font-weight: bold;}fieldset {	margin: 0;	padding: 0;	border: none;}
+input, textarea {	padding: 2px;	border: 1px solid #626262;	font: normal 1em "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.button1{	padding-top: 0px;	padding-bottom: 0px;	padding-left: 5px;	padding-right: 5px;	border: none;	color: #000000; 	border: 1px solid #000000; 	background-color: #FFFFFF;	text-decoration: none;}
+/* headers */h1, h2, h3 {	font: 1em 'Trebuchet MS', Arial, Sans-serif;	color: #333;	margin: 0;	padding: 0;}
+#menu {	height: 90px;	padding-left: 5px;	}#menu ul {	list-style:none;}
+#menu ul li {	list-style:none;	float:left;	}
+#menu ul li a {	color: #000000;	float: left;	font: bold 1.2em "Trebuchet MS",sans-serif;	margin-top: 56px;	padding: 8px 18px;	text-align: center;	text-decoration: none;}
+#menu ul li a:hover {	background-color: #333333;	color: #ffffff;	border: 0px;}
+#menu #current_page_item a {	background-color: #333333;	color: #6297BC;}
+#header{	margin: 0 auto;	width: 690px;	height: 10px;	text-align: left;}
+#header h1{	text-transform: uppercase;	position:absolute;	font-weight:bold;	top:0px;	left:10px;	font-size: 2.5em; 	color: #ffffff;	z-index:100;	text-decoration:none;}
+#header h2{	font: normal 1.1em Verdana, Tahoma, Helvetica, sans-serif;	text-transform: uppercase;	position:absolute;	font-weight:bold;	top:35px;	left:10px;	color: #000000;	z-index:101;}
+#main{	height:100%;	background: #333 url(images/middle_bg.gif) left bottom repeat-x;	overflow:auto;	}
+#footer{	clear: both;	padding-top: 4px;	height: 40px;	background: #ccc url(images/footer_bg.gif) repeat-x;	color: #888;	font-size: 9px;	text-align: center;}
+#center{	float: left;	margin-left: 14px;	padding-top: 10px;	width: 98%;	padding-bottom:50px;	}
+#center h1{	font-size: 1.9em; 	color: #6297BC; 	padding-top:5px;	padding-left:0px;	padding-bottom:20px;	margin:0px;}
+#center h2{	font-size: 0.9em; 	color: #6297BC;	margin-left:0px;	margin-top:-20px;}
+#center h3{	font-size: 1.3em; 	color: #6297BC;}
+#center p{	font-size: 1em; 	color: #cecece;	margin:10px;	padding:0px;}
+#login {	padding:20px;	margin:0;}
+#login h1{	font-size: 2em; 	color: #6297BC;	padding-top:30px;
+}#login p{	font-size: 1em; 	color: #cecece;	margin:10px;	padding:10px;}
+#login label {	display: block;}
+#login #username, #login #password {	width: 180px;	margin-bottom: .5em;	padding: 2px 5px;	border: 1px solid #CCCCCC;	font: normal small Arial, Helvetica, sans-serif;	color: #000000;}
+#login p {	margin: 0;	padding-top: .2em;	font-size: x-small;}
+#bottom_panel{	height:25px;	background-color : #121210; 	color: #cecece;	border:1px solid #272624;	padding-top:8px;}
+#readmore{	font-size: 1.4em;	background: url(images/img9.gif) no-repeat;	margin:10px;	padding-left:20px;	text-decoration:none;}
+#comments{	font-size: 1.4em;	background: url(images/img10.gif) no-repeat;	margin:10px;	padding-left:20px;	text-decoration:none;}
+#back{	font-size: 1.4em;	background: url(images/back.png) no-repeat;	margin:10px;	padding-left:20px;	text-decoration:none;}
+#errormsg{	color:red;}/* Comments */#comments {	clear:both; 	padding: 0px 0px 0 20px;}#comments h1 {	font-size: 15px;}#comments ul {	margin: 0;	padding: 0;	list-style: none;	padding-bottom: 30px;}#comments li {	margin: 0;	padding: 0;	line-height: 35px;}#comments li span {	display: block;	margin-top: -20px;	padding-left:25px;	font-size: 11px;	font-style: italic;	color: #BCBCBC;}#comments h2 {	letter-spacing: -.5px;	color: #444444;}#comments p {	padding-left:15px;	text-align: justify;	margin-top: -10px;	line-height: normal;	font-size: 13px;}#comments a {	color: #000000;	border: none;}#comments a:hover {	text-decoration: underline;	color: #787878;}

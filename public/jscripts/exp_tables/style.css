@@ -1,0 +1,58 @@
+#myTable {
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+#myTable table {
+	border-collapse: collapse;
+}
+
+#myTable td{
+	padding: 4px;
+	border-right: 1px solid #CCC;
+	overflow: hidden;
+	border-bottom: 1px solid #CCC;
+	vertical-align:top;
+}
+#myTable th {
+  	padding: 4px;
+	border-right: 1px solid #CCC;
+	overflow: hidden;
+	border-bottom: 1px solid #CCC;
+	text-align:center;
+	padding-right:14px;
+	padding-left:14px;
+}
+
+#myTable td[axis='number'], #printarea td[axis='date'] {text-align:right;}
+
+#myTable thead, #myTable tfoot {
+	background-color: #DDD;
+}
+
+#myTable tr.odd {
+	background-color: #FFF;
+}
+#myTable tr.odd:hover {
+	background-color: #B9DDFF;
+	cursor: pointer;
+}
+
+#myTable tr.even {
+	background-color: #F2F2F2;
+}
+#myTable tr.even:hover {
+	background-color: #B9DDFF;
+	cursor: pointer;
+}
+
+#myTable .sortedminus {
+	background: #DDFFAC url(up.gif) no-repeat center right;
+}
+#myTable .sortedplus {
+	background: #B9DDFF url(down.gif)no-repeat center right;
+}
+#myTable .nosort {
+	cursor: default;
+}
+
+#myTable .selrow td {background-color:#ACF;}
